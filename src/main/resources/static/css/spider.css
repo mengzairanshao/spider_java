@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana sans-serif ;
+}
+.name{
+    font-size: 40px;
+    position: absolute;
+    color: #555555;
+    left:45%;
+    top:8%;
+
+
+}
+.main{
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:647.2px;
+    height: 400px;
+    border:1px solid #cccccc;
+
+}
+
+.put-in{
+    position: absolute;
+    left:50%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    width:380px;
+    height: 250px;
+}
+
+.sub-box{
+    width:380px;
+    height: 100px;
+
+}
+
+.character{
+    font-size: 30px;
+    font-family: Verdana sans-serif;
+
+}
+.form-control{
+    float: right;
+    height: 40px;
+    width: 230px;
+}
+button{
+    color: #fff;
+    font-size: 25px;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 40px;
+    width: 350px;
+    position:absolute;
+    left:5%;
+    cursor: pointer;
+}
